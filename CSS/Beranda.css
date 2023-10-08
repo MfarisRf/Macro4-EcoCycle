@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body {
-    background-image: linear-gradient(0, #E2F6FF 1px, #7ED3F8 40%);
+    background-image: linear-gradient(0, #E2F6FF 27px, #7ED3F8 39%);
 }
 
 .btn-light {
@@ -35,6 +35,6 @@ p {
 .card {
     border: none;
     padding: 30px;
-    background-image: linear-gradient(0, #E2F6FF 0, #7ED3F8 100%);
+    background-image: linear-gradient(0, #E2F6FF 20%, #7ED3F8 100%);
     width: 100%;
 }
