@@ -1,6 +1,9 @@
 .template {
   background: rgb(255, 255, 255);
   background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(63, 140, 255, 1) 100%);
-  max-width: 100%;
-  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* max-width: 100%;
+  height: auto; */
 }
