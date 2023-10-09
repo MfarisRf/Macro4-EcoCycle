@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 body {
     background-image: linear-gradient(0, #E2F6FF 27px, #7ED3F8 39%);
+}
+
+.container {
+    width: 5000px;
+    min-height: 200%;
 }
 
 .btn-light {
@@ -25,6 +31,7 @@ h1{
     padding: 5%;
     margin-right: 50%;
     margin-left: -15%;
+    text-align: justify;
 }
 
 p {
