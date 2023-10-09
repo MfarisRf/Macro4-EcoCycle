@@ -1,0 +1,47 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.picture
+{
+    width: 100%;
+    height: 30vh;
+    position:absolute;
+    display: flex;
+    transform:none;
+}
+
+li {
+    display: inline;
+
+}
+
+span {
+    display: block;
+
+}
+
+
+.tahapan
+{
+    align-items:end
+}
+
+.tahapan-desc
+{
+    text-align: justify;
+    margin: 5% 5%;
+    top: auto;
+}
