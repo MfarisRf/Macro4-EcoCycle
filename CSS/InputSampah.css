@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body {
+    background-image: url(/assets/background.png);
+    background: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.kertas {
+    margin: 300px;
+    margin-top: 15%;
+}
+
+.tulisan {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Raleway' sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.card-group {
+    border: 1px solid #CFE2E8;
+    border-radius: 18px;
+    background-color: #CFE2E8;
+    padding: 50px;
+    padding-bottom: 60px;
+}
+
+#tombol {
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+}
