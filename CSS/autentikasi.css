@@ -12,18 +12,18 @@ body {
 }
 
 .template {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(63, 140, 255, 1) 100%);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-<<<<<<< Updated upstream
-  }
-=======
-  }
-
-.wrapper {
-    width: min(900px, 100% - 3rem);
-    margin-inline: auto;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(63, 140, 255, 1) 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
->>>>>>> Stashed changes
+.wrapper {
+  margin-inline: auto;
+  width: 100%;
+  text-align: center;
+  width: min(900px, 100% - 3rem);
+  /* margin-left: 150px;
+  margin-right: 150px; */
+}
+
