@@ -7,11 +7,13 @@ body {
     background: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 3000px;
 }
 
 .kertas {
     margin: 300px;
-    margin-top: 15%;
+    margin-left: 23%;
+    margin-right: 20%;
 }
 
 .tulisan {
@@ -33,11 +35,32 @@ p {
     border-radius: 18px;
     background-color: #CFE2E8;
     padding: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 25px;
 }
 
 #tombol {
+    border: none;
+    border-radius: 24px;
+    background-color: #3F8CFF;
+    width: 140px;
+    height: 40px;
     color: black;
-    font-size: 15px;
+    font-size: 13px;
     font-family: sans-serif;
+    margin-left: 350px;
+    margin-right: 350px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#card1 {
+    margin-left: 150px;
+    width: 50%;
+    height: 30px;
+    border: none;
+}
+
+#klik {
+    color: black;
+    text-decoration: none;
 }
