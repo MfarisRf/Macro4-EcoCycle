@@ -22,11 +22,11 @@ function submitForm() {
 
 //     // Buat elemen input jenis sampah
 //     var jenisLabel = document.createElement("jenis");
-//     jenisLabel.textContent = "Jenis Sampah:";
+//     jenisLabel.textContent = "jenis sampah :";
 //     var jenisInput = document.createElement("input");
 //     jenisInput.type = "text";
 //     jenisInput.name = "jenis";
-//     var jenisGroup = document.createElement("div");
+//     var jenisGroup = document.createElement("card-group");
 //     jenisGroup.classList.add("card-group");
 //     jenisGroup.appendChild(jenisLabel);
 //     jenisGroup.appendChild(jenisInput);
@@ -37,7 +37,7 @@ function submitForm() {
 //     var beratInput = document.createElement("input");
 //     beratInput.type = "text";
 //     beratInput.name = "jenis";
-//     var beratGroup = document.createElement("div");
+//     var beratGroup = document.createElement("card-group");
 //     beratGroup.classList.add("card-group");
 //     beratGroup.appendChild(beratLabel);
 //     beratGroup.appendChild(beratInput);
@@ -48,7 +48,7 @@ function submitForm() {
 //     var hargaInput = document.createElement("input");
 //     hargaInput.type = "text";
 //     hargaInput.name = "jenis";
-//     var hargaGroup = document.createElement("div");
+//     var hargaGroup = document.createElement("card-group");
 //     hargaGroup.classList.add("card-group");
 //     hargaGroup.appendChild(hargaLabel);
 //     hargaGroup.appendChild(hargaInput);
