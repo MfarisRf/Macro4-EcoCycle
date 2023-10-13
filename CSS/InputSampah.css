@@ -38,6 +38,7 @@ p {
     padding-bottom: 25px;
 }
 
+
 #tombol {
     border: none;
     border-radius: 24px;
@@ -53,14 +54,18 @@ p {
     margin-bottom: 30px;
 }
 
-#card1 {
-    margin-left: 150px;
+#jenis {
+    margin-left: 125px;
     width: 50%;
     height: 30px;
     border: none;
 }
 
-#klik {
-    color: black;
-    text-decoration: none;
+#tomb {
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    background-color: #ffff;
+    border-radius: 5px;
 }

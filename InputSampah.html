@@ -49,21 +49,24 @@
                 <p>Bantu kita membuat dunia lebih bersih dengan memasukkan informasi tentang sampah yang Anda temukan. Dengan berbagi data ini, kami dapat merekomendasikan produk kerajinan yang dapat Anda beli atau membuat dari sampah ini.</p><br>
             </div>
             <div class="card-group">
+            <form>
                 <div class="input-group mb-3">
-                  <label>jenis sampah :<br></label>
-                  <input type="text" name="jenissampah" id="card1" />
+                  <label for="jenis">jenis sampah :<br></label>
+                  <input type="text" name="jenis" id="jenis" />
                 </div>
                 <div class="input-group mb-3">
-                  <label>jenis sampah :<br></label>
-                  <input type="text" name="jenissampah" id="card1" />
+                  <label for="jenis">jenis sampah :<br></label>
+                  <input type="text" name="jenis" id="jenis" />
                 </div>
                 <div class="input-group mb-3">
-                  <label>jenis sampah :</p></label>
-                  <input type="text" name="jenissampah" id="card1" />
+                  <label for="jenis">jenis sampah :</p></label>
+                  <input type="text" name="jenis" id="jenis" />
+                  <button type="button" id="tomb" onclick="addForm()">+</button>
                 </div>
-                <button  type="button" class="btn btn-primary btn-lg" id="tombol" ><strong><a href="Beranda.html" id="klik">Kirim</a></strong></button>
+                <button  type="button" class="btn btn-primary btn-lg" id="tombol" onclick="submitForm()" ><strong>Kirim</strong></button>
+              </form>
             </div>
         </div>
-        
 </body>
+<script src="/Javascipt/inputsampah.js"></script>
 </html>
