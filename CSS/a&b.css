@@ -1,0 +1,26 @@
+body {
+    background-image: url(/assets/background.png);
+    background-size: 100%;
+    background: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.input-group {
+    margin-top: 8%;
+    margin-left: 25%;
+}
+
+#icon {
+    width: 18px;
+    height: 19px;
+    margin-top: -12%;
+    margin-left: 93%;
+}
+
+.form-control {
+    border: 1px solid black;
+    width: 700px;
+    height: 58px;
+    border-radius: 50px;
+}
