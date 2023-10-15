@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
     background-image: url(/assets/background.png);
     background-size: 100%;
@@ -35,6 +38,20 @@ body {
     text-align: justify;
 }
 
+.card-title {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card-text {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 #tulisan {
     color: blue;
+}
+
+#link {
+    text-decoration: none;
 }
