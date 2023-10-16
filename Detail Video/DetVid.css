@@ -27,6 +27,17 @@
   width: 1296px;
   height: 214px;
 }
+
+.card {
+  margin: 2%;
+  background: none;
+  border: none;
+}
+
+.card-body {
+  text-align: justify;
+}
+
 .detailt-vidio-child {
   position: absolute;
   top: 261px;
