@@ -69,3 +69,8 @@ p {
     background-color: #ffff;
     border-radius: 5px;
 }
+
+#kirim {
+    text-decoration: none;
+    color: black;
+}
