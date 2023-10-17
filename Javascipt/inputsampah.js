@@ -20,7 +20,6 @@ function addForm() {
     var form = document.createElement("card-group");
     form.classList.add("card-group");
 
-    // Buat elemen input jenis sampah
     var jenisLabel = document.createElement("jenis");
     jenisLabel.textContent = "jenis sampah :";
     var jenisInput = document.createElement("input");
