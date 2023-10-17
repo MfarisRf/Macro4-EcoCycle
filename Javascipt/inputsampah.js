@@ -9,7 +9,7 @@ function submitForm() {
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "http://127.0.0.1:5501/InputSampah.html");
     xhr.setRequestHeader("Content-Type", "application/json");
-    xhr.send(JSON.stringify({jenis: jenis, jenis: jenis}));
+    xhr.send(JSON.stringify({ jenis: jenis, jenis: jenis }));
 
     // Tampilkan pesan sukses
     alert("Data berhasil dikirim!");
@@ -56,7 +56,7 @@ function addForm() {
     var hapusButton = document.createElement("button");
     hapusButton.type = "button";
     hapusButton.textContent = "Hapus";
-    hapusButton.onclick = function() {
+    hapusButton.onclick = function () {
         form.remove();
     };
 
@@ -70,3 +70,32 @@ function addForm() {
     var container = document.querySelector(".card-group");
     container.insertBefore(form, container.lastChild);
 }
+
+const addFormBtn = document.getElementById('tomb');
+
+const formComponent = `
+    <form id="form-${Math.random()}">
+        <div class="input-group mb-3">
+            <label for="jenis">jenis sampah :</label>
+            <input type="text" name="jenis-${Math.random()}" id="jenis-${Math.random()}" />
+        </div>
+        <div class="input-group mb-3">
+            <label for="jenis">jenis sampah :</label>
+            <input type="text" name="jenis-${Math.random()}" id="jenis-${Math.random()}" />
+        </div>
+        <div class="input-group mb-3">
+            <label for="jenis">jenis sampah :</label>
+            <input type="text" name="jenis-${Math.random()}" id="jenis-${Math.random()}" />
+            <button type="button" id="tomb-${Math.random()}">+</button>
+        </div>
+    </form>
+`
+
+addFormBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const cardGroup = document.getElementById('groupCard');
+    console.log('click')
+
+    // cardGroup.innerHTML += formComponent
+    cardGroup.insertAdjacentHTML('beforeend', formComponent)
+})
