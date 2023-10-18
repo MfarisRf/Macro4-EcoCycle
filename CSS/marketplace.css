@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -8,13 +10,9 @@ header {
     padding: 20px;
     text-align: center;
 }
+
 main {
     padding: 50px;
-}
-footer {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
 }
 
 /* style pop up profile */
@@ -105,16 +103,72 @@ footer {
     color: white;
 }
 
-.kotak1 {
-    border: 1px solid black;
-    width: 15%;
-}
-
 #kertas1 {
-    margin-top: -53%;
-    margin-left: 20%;
+    margin-top: -50%;
+    margin-left: 21%;
 }
 
-.kotak2 {
-    padding: 20px;
+.kotak {
+    border: 1px solid black;
+    width: 20%;
+}
+
+.kota{
+    margin-left: 15px;
+    
+}
+
+.list ul li{
+    list-style-type: none;
+    background-color: #B0D0FF;
+    margin: 5px;
+    padding: 6px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 13px;
+    text-align: center;
+    width: 106px;
+    height: auto;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+hr {
+    color: #3F8CFF;
+}
+
+.card-img-top {
+    width: 257px;
+    height: 247px;
+}
+
+.card-title {
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card {
+    border: none;
+}
+
+#tombol {
+    background-color: #3F8CFF;
+    font-weight: bold;
+    border-radius: 24px;
+    width: 194px;
+    height: 60px;
+    margin-left: 20px;
 }
