@@ -85,7 +85,6 @@ ul {
 }
 
 ul li {
-
   margin: 30px 0;
   display: flex;
   align-items: self-end;
@@ -102,6 +101,16 @@ ul li p {
   white-space: nowrap;
 }
 
+ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 30px 0;
+    display: flex;
+    align-items: self-end;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
 .side-nav ul li {
   justify-content: flex-start;
 }
@@ -112,8 +121,46 @@ ul li p {
 
 /* container */
 
-.container {
-    margin-left: 0;
-    padding-left: 0;
+.card1 {
+    position: absolute;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 35%;
+}
+
+.card2 {
+    position: absolute;
+    align-items: center;
+    margin-left: 65%;
+    margin-top: 35%;
+}
+
+.card3 {
+    position: absolute;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 55%;
+} 
+
+.card4 {
+    position: absolute;
+    align-items: center;
+    margin-left: 65%;
+    margin-top: 55%;
+}
+
+/* vidio */
+
+.card1 {
+    border-radius: 30px;
+}
+ 
+.card-body {
+    background-color: rgba(255, 255, 255, 0.2);
+    align-items: center;
+}
+
+.card-body .card-text {
+    text-align: center;
 }
 
