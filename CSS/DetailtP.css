@@ -114,3 +114,23 @@ body {
     width: 30px;
     height: 30px;
 }
+
+.koran{
+    margin: 30px;
+}
+
+.koran1{
+    background-color: #76D2F7;
+    margin-left: 5px;
+}
+
+#gmbr {
+    width: 475px;
+    height: 442px;
+}
+
+#img {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
