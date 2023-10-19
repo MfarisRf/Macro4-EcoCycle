@@ -139,6 +139,10 @@ ul li a {
   border-radius: 20px;
 }
 
+.card2 img {
+  border-radius: 20px;
+}
+
 .card3 {
     position: absolute;
     align-items: center;
@@ -147,6 +151,10 @@ ul li a {
     border: 3px solid #000000;
     border-radius: 20px;
 } 
+
+.card3 img {
+  border-radius: 20px;
+}
 
 .card4 {
     position: absolute;
