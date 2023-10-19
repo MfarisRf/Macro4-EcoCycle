@@ -123,6 +123,19 @@
   /* container */
   
 .conten {
-    top: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(63, 140, 255, 1);
+    position:absolute ;
+    flex: 1;
+    margin: 10px;
+    max-width: 200px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    z-index: 1000;
+
+
 }
   

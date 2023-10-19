@@ -121,18 +121,22 @@ ul li a {
 
 /* container */
 
-.card1 {
+.card-1 {
     position: absolute;
     align-items: center;
     margin-left: 35%;
     margin-top: 35%;
+    border: 3px solid #000000;
+    border-radius: 20px;
 }
 
 .card2 {
-    position: absolute;
-    align-items: center;
-    margin-left: 65%;
-    margin-top: 35%;
+  position: absolute;
+  align-items: center;
+  margin-left: 65%;
+  margin-top: 35%;
+  border: 3px solid #000000;
+  border-radius: 20px;
 }
 
 .card3 {
@@ -140,6 +144,8 @@ ul li a {
     align-items: center;
     margin-left: 35%;
     margin-top: 55%;
+    border: 3px solid #000000;
+    border-radius: 20px;
 } 
 
 .card4 {
@@ -147,17 +153,18 @@ ul li a {
     align-items: center;
     margin-left: 65%;
     margin-top: 55%;
+    border: 3px solid #000000;
+    border-radius: 20px;
 }
 
-/* vidio */
-
-.card1 {
-    border-radius: 30px;
-}
  
 .card-body {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #5BB2BC;
     align-items: center;
+    padding: 6px;
+    margin-top: -10px;
+    border-radius: 20px;
+    color: antiquewhite;
 }
 
 .card-body .card-text {
