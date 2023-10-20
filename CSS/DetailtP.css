@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -133,4 +135,15 @@ body {
     width: 100px;
     height: 100px;
     margin-right: 50px;
+}
+
+#Tas{
+    width: 475px;
+    height: 442px;
+}
+
+.judul{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
